@@ -9,7 +9,7 @@ def sumToN(nums, target):
         seen[nums[i]] = i
 
 #Runtime: O(N) where N = number of digits in N
-#Memory: O(N) where N = number of digits in N
+#Space: O(N) where N = number of digits in N
 def palindrome(num):
     num_str = str(num)
     left = 0
